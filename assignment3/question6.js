@@ -8,11 +8,11 @@ const disneyData = {
 
 // Write your code below
 // Destructure the array to get individual values
-open = disneyData['open'];
-high = disneyData['high'];
-low = disneyData['low'];
-close = disneyData['close'];
-volume = disneyData['volume'];
+const open = parseFloat(disneyData['open']);
+const high = parseFloat(disneyData['high']);
+const low = parseFloat(disneyData['low']);
+const close = parseFloat(disneyData['close']);
+const volume = parseFloat(disneyData['volume']);
 
 // Logic to check pricing trend of bacData
 if (close > open) {
